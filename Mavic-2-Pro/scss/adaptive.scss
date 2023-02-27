@@ -1,0 +1,765 @@
+@media (min-width: 1400px) {
+  .container {
+    &__img-line1 {
+      display: none;
+    }
+    &__img-line2 {
+      display: none;
+    }
+    &__img-line3 {
+      display: none;
+    }
+
+    &__box-characteristics-line-1 {
+      display: none;
+    }
+    &__box-characteristics-line-2 {
+      display: none;
+    }
+    &__box-characteristics-line-3 {
+      display: none;
+    }
+    &__box-characteristics-line-4 {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1365px) {
+  .nav__box-logo {
+    margin-right: 53px;
+  }
+  .nav__box-links {
+    margin-right: 29px;
+  }
+}
+@media (max-width: 1220px) {
+  .nav {
+    justify-content: space-between;
+
+    &__box-logo {
+      margin: 0;
+    }
+    &__box-links {
+      display: none;
+    }
+    &__btn-buy {
+      width: 108px;
+      right: 34px;
+    }
+    &__btn-buy {
+      margin-right: 100px;
+    }
+    &__link-tel {
+      display: none;
+    }
+  }
+  .burger {
+    display: block;
+  }
+  .container {
+    &__container {
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 815px) {
+  .nav {
+    &__link-title {
+      display: none;
+    }
+    &__btn-buy {
+      margin: 0;
+    }
+  }
+  .header {
+    &__title {
+      font-size: 75px;
+    }
+    &__img-dron {
+      width: 80%;
+    }
+  }
+}
+@media (max-width: 505px) {
+  .header {
+    &__container {
+      padding-top: 182px;
+    }
+    &__title {
+      font-size: 60px;
+    }
+    &__text {
+      width: 288px;
+      margin: auto;
+      margin-bottom: 80px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    &__container {
+      padding-top: 182px;
+    }
+    &__title {
+      display: none;
+    }
+    &__text {
+      width: 288px;
+      margin: auto;
+      margin-bottom: 80px;
+    }
+  }
+}
+
+
+@media (max-height: 767px) {
+  .header {
+    &__container {
+      padding-top: 160px;
+    }
+  }
+}
+@media (max-height: 712px) {
+  .header {
+    &__container {
+      padding-top: 115px;
+    }
+  }
+}
+@media (max-height: 674px) {
+  .header {
+    &__title {
+      display: none;
+    }
+    &__container {
+      padding-top: 150px;
+    }
+  }
+}
+
+@media (max-width: 1262px) {
+  .container {
+    &__container {
+      margin: 0 0px;
+      width: 100%;
+
+      .container-title {
+        margin-left: 20px;
+      }
+    }
+    &__slider-slide {
+      margin: 0;
+    }
+    &__text-about-drone {
+      margin-left:  50px;
+      margin-right: 10px;
+    }
+    //Слайд 3
+    &__box-advantages {
+      margin-left: 30px;
+    }
+    //Слайд 5
+    &__box-questions {
+      margin-left: 30px;
+    }
+  }
+  .box-advantage {
+    &__text {
+      margin-right: 5px;
+    }
+  }
+  .copyright--position--absolute {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 1195px) {
+  .container {
+    &__box-advantage-3 {
+      margin-left: 0;
+    }
+    &__box-advantage-4 {
+      margin-left: 0;
+    }
+    &__box-advantages {
+      grid-template-columns: 48% 52%;
+      margin-top: 27px;
+    }
+  }
+  .box-advantage {
+    width: 250px;
+    &__text {
+      width: 200px;
+    }
+    &__text--width--245px {
+      width: 200px;
+    }
+  }
+}
+@media (max-width: 1135px) {
+  .container {
+    &__box-characteristic-text-2 {
+      padding-right: 10px;
+    }
+    &__box-characteristic-text-4 {
+      padding-right: 10px;
+    }
+    &__box-characteristics-line-1 {
+      width: 186px;
+    }
+    &__box-characteristics-line-2 {
+      width: 152px;
+      height: 102px;
+    }
+    &__box-characteristics-line-3 {
+      width: 281px;
+      height: 75px;
+    }
+    &__box-characteristics-line-4 {
+      width: 77px;
+      height: 85px;
+    }
+    //Слайд 5
+    &__questin-text {
+      margin-right: 10px;
+    }
+    &__container-questions-img-dron {
+      margin-right: 20px;
+    }
+    //Слайд 6
+    &__box-connection {
+      margin-right: 20px;
+    }
+  }
+}
+@media (max-width: 1086px) {
+  .container {
+    &__slider {
+      width: 663px;
+    }
+    &__slider-text {
+      font-size: 21px;
+      bottom: 11px;
+    }
+    &__slider-img {
+      width: 60%;
+      bottom: 0px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .nav--background {
+    position: fixed;
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1c1c1c7d;
+    z-index: 9;
+  }
+  .container {
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    &__container {
+      min-height: 900px;
+    }
+    &__box-advantages {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+    &__box-advantage-1 {
+      margin-top: 10px;
+      height: 120px;
+      margin-top: 20px;
+    }
+    &__box-advantage-2 {
+      margin-top: 10px;
+      height: 120px;
+      margin-top: 20px;
+    }
+    &__box-advantage-3 {
+      margin-top: 10px;
+      height: 120px;
+      margin-top: 20px;
+    }
+    &__box-advantage-4 {
+      margin-top: 10px;
+      height: 120px;
+      margin-top: 20px;
+      .container__box-advantage-4-text-span {
+        width: auto;
+      }
+    }
+    &__img-line1 {
+      display: none;
+    }
+    &__img-line2 {
+      display: none;
+    }
+    &__img-line3 {
+      display: none;
+    }
+    // Слайд 4
+    &__box-characteristic-text-1 {
+      padding-left: 20px;
+    }
+    &__box-characteristic-text-2 {
+      padding-right: 20px;
+    }
+    &__box-characteristic-text-3 {
+      padding-left: 20px;
+    }
+    &__box-characteristic-text-4 {
+      padding-right: 20px;
+    }
+    &__box-characteristics-line-1 {
+      width: 137px;
+    }
+    &__box-characteristics-line-2 {
+      width: 114px;
+    }
+    &__box-characteristics-line-3 {
+      width: 227px;
+    }
+    &__box-characteristics-line-4 {
+      width: 55px;
+    }
+
+    //Слайд 5
+    &__container-questions-img-dron {
+      width: 200px;
+      height: auto;
+    }
+    //Слайд 6
+    &__container-connection {
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+      margin-top: 55px;
+    }
+    &__box-connection {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 30px;
+    }
+    &__social-media {
+      position: absolute;
+      top: 495px;
+      left: 705px;
+    }
+  }
+  .box-advantage {
+    width: auto;
+
+    &__img {
+      width: auto;
+      height: 100%;
+    }
+    &__number {
+      margin-top: 82px
+    }
+    &__box-text {
+      top: 0;
+    }
+    &__text {
+      width: auto;
+      padding-right: 30px;
+    }
+  }
+  .footer-form {
+    &__submit {
+      align-self: flex-end;
+    }
+  }
+  .box-questin-form--add-margin {
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    
+    &__container {
+      padding-top: 100px;
+      margin: 0 0px;
+    }
+    &__text-about-drone {
+      top: 0;
+      width: auto;
+      padding-right: 30px;
+    }
+    &__slider {
+      width: 75%;
+      left: -60px;
+      right: 0;
+      margin: auto;
+    }
+    &__slider-img {
+      width: 400px;
+      bottom: 0px;
+    }
+
+    //Слайд 4
+    &__box-characteristics-img-dron {
+      top: 0;
+      bottom: 0;
+      margin: auto auto;
+      width: 75%;
+      height: auto;
+    }
+    &__box-characteristics-line-1 {
+      display: none;
+    }
+    &__box-characteristics-line-2 {
+      display: none;
+    }
+    &__box-characteristics-line-3 {
+      display: none;
+    }
+    &__box-characteristics-line-4 {
+      display: none;
+    }
+    //Слайд 5
+    &__box-questions {
+      margin-right: 25px;
+      margin-left: 20px;
+    }
+    &__box-question-text {
+      .container__answer-text {
+        height: auto;
+        margin-right: 10px;
+      }
+    }
+    &__container-questions-img-dron {
+      display: none;
+    }
+    //Слайд 6
+    &__social-media {
+      top: 445px;
+      left: 624px;
+    }
+  }
+  .box-advantage {
+    &__title {
+      width: auto;
+      padding-right: 10px;
+    }
+  }
+  .box-questin-form--add-margin {
+    margin-left: 64px;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    &__box-characteristics-img-dron {
+      padding-right: 30px;
+    }
+    &__box-characteristic-text-1 {
+      padding-left: 0;
+      left: 30px;
+    }
+    &__box-characteristic-text-2 {
+      padding-right: 0;
+      right: 30px;
+    }
+    &__box-characteristic-text-3 {
+      padding-left: 0;
+      left: 30px;
+    }
+    &__box-characteristic-text-4 {
+      padding-right: 0;
+      right: 30px;
+    }
+    //Слайд 6
+    &__container-connection {
+      margin-top: 15px;
+    }
+    &__connection {
+      margin-bottom: 15px;
+    }
+    &__box-connection {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    &__social-media {
+      position: relative;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0;
+      height: auto;
+      width: 240px;
+      margin: auto;
+    }
+  }
+  .box-questin-form--add-margin {
+    margin-top: 0;
+    margin-left: 30px;
+  }
+  .connection {
+    &__title {
+      font-size: 19px;
+      line-height: 20px;
+    }
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    // Слайд 4
+    &__box-characteristics-img-dron {
+      position: relative;
+      width: 90%;
+      left: 5%;
+      padding: 0;
+    }
+    &__box-characteristics {
+      margin-top: 13px;
+      height: auto;
+    }
+    &__box-characteristic-text-1 {
+      position: relative;
+      top: auto;
+      bottom: auto;
+      left: auto;
+      right: auto;
+      width: auto;
+      padding-right: 10px;
+      padding-left: 35px;
+      margin-top: 20px;
+    }
+    &__box-characteristic-text-2 {
+      position: relative;
+      top: auto;
+      bottom: auto;
+      left: auto;
+      right: auto;
+      width: auto;
+      padding-right: 10px;
+      padding-left: 35px;
+      margin-top: 20px;
+    }
+    &__box-characteristic-text-3 {
+      position: relative;
+      top: auto;
+      bottom: auto;
+      left: auto;
+      right: auto;
+      width: auto;
+      padding-right: 10px;
+      padding-left: 35px;
+      margin-top: 20px;
+    }
+    &__box-characteristic-text-4 {
+      position: relative;
+      top: auto;
+      bottom: auto;
+      left: auto;
+      right: auto;
+      width: auto;
+      padding-right: 10px;
+      padding-left: 35px;
+      margin-top: 20px;
+    }
+    //Слайд 6
+    &__social-media {
+      margin-top: 25px;
+    }
+  }
+  .container__box-characteristic-text-1 .box-characteristic-text__text {
+    width: auto;
+  }
+  .container__box-characteristic-text-2 .box-characteristic-text__text {
+    width: auto;
+  }
+  .container__box-characteristic-text-3 .box-characteristic-text__text {
+    width: auto;
+  }
+  .container__box-characteristic-text-4 .box-characteristic-text__text {
+    width: auto;
+  }
+
+  .footer-form {
+    &__container {
+      width: 95%;
+    }
+    &__input-text {
+      width: 49.2%;
+    }
+    &__submit {
+      margin-top: 10px;
+    }
+  }
+  .box-questin-form {
+    &__text {
+      padding-right: 20px;
+    }
+  }
+  .box-questin-form--add-margin {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 559px) {
+  .container {
+    &__text-about-drone {
+      margin: 10px 0 0 30px;
+    }
+    &__slider {
+      width: 400px;
+      left: 30px;
+      right: auto;
+    }
+    &__slider-img {
+      width: 100%;
+    }
+    &__box-advantage-1 {
+      margin-top: 30px;
+      height: 155px;
+    }
+    &__box-advantage-2 {
+      margin-top: 30px;
+      height: 155px;
+    }
+    &__box-advantage-3 {
+      margin-top: 30px;
+      height: 155px;
+    }
+    &__box-advantage-4 {
+      margin-top: 30px;
+      height: 155px;
+    }
+    &__box-advantage-2-namber {
+      padding-left: 0px;
+      padding-right: 6px;
+    }
+    &__box-advantage-4-namber {
+      padding-right: 7px;
+    }
+    //Слайд 5
+    &__questin-btn {
+      width: 73px;
+    }
+  }
+  .box-advantage {
+    &__img {
+      display: none;
+    }
+    &__number {
+      margin-top: -8px;
+    }
+  }
+}
+@media (max-width: 490px) {
+  .container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    &__container {
+      font-size: 33px;
+      padding-top: 70px;
+      min-height: 900px;
+    }
+    &__slider {
+      width: 90%;
+    }
+
+    //Слайд 4
+    &__box-characteristics-img-dron {
+      padding-right: 10px;
+    }
+    &__box-characteristic-text-1 {
+      padding-right: 35px;
+    }
+    &__box-characteristic-text-2 {
+      padding-right: 35px;
+    }
+    &__box-characteristic-text-3 {
+      padding-right: 35px;
+    }
+    &__box-characteristic-text-4 {
+      padding-right: 35px;
+    }
+    //Слайд 5
+    &__container-questions {
+      margin-top: 15px;
+      max-height: 100%;
+    }
+    &__box-question-text {
+      .container__questin-text {
+        padding: 7px 0 5px 20px;
+      }
+      .container__answer-text {
+        padding-left: 25px;
+      }
+    }
+  }
+  .container__container .container-title {
+    font-size: 33px;
+    width: 90%;
+    line-height: 40px;
+  }
+}
+@media (max-width: 390px) {
+  .container {
+    &__container {
+      .container-title {
+        font-size: 30px;
+        line-height: 35px;
+      }
+    }
+    &__box-question-text {
+      .container__questin-text {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+    &__social-media {
+      margin-top: 15px;
+    }
+  }
+  .footer-form {
+    &__box--flex {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+    &__input-text {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
+  .copyright--position--absolute {
+    bottom: 13px;
+    margin-right: 15px;
+  }
+}
+@media (max-width: 370px) {
+  .container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    &__container {
+      min-height: 900px;
+    }
+    &__slider-text {
+      width: 255px;
+    }
+  }
+}
+
+@media (max-height: 723px) {
+  .container {
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    &__container {
+      min-height: 900px;
+    }
+  }
+}
+
+
+
