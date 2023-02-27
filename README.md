@@ -6,3 +6,9 @@
 - SCSS
 - JavaScript
 - Swiper
+
+## 2. [Relvise](https://coder-html840.github.io/My-portfolio/Relvise/) (Simple landing page).
+### The following was used in the development:
+- HTML
+- CSS
+- SCSS
