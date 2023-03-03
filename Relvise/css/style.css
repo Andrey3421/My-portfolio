@@ -18,6 +18,7 @@
   color: #252B42;
   margin-top: 36px;
 }
+
 .header--position--absolute {
   position: absolute;
   width: 100%;
@@ -36,6 +37,10 @@
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #737373;
+}
+.menu__item-link:hover {
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
 }
 
 .main-container {
@@ -99,6 +104,10 @@
   background-color: #FF7B47;
   border-radius: 37px;
 }
+.finance-consultancy__btn-get-quote:hover {
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
 .finance-consultancy__btn-learn-more {
   color: #0D5C63;
   font-weight: 700;
@@ -111,6 +120,10 @@
   background-color: transparent;
   border-radius: 37px;
   border: 1px solid #0D5C63;
+}
+.finance-consultancy__btn-learn-more:hover {
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
 }
 .finance-consultancy__wrap-boxes-product {
   display: flex;
@@ -317,17 +330,6 @@
   height: 58px;
   border: 1px solid #E6E6E6;
   border-radius: 5px 0 0 5px;
-}
-.newsletter__input-email::-moz-placeholder {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 28px;
-  letter-spacing: 0.2px;
-  color: #737373;
-  padding-left: 20px;
-}
-.newsletter__input-email::placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -350,6 +352,9 @@
   color: #fff;
   text-align: center;
   border-radius: 0 5px 5px 0;
+}
+.newsletter__btn-submit:hover {
+  text-decoration: underline;
 }
 
 .newsletter::after {

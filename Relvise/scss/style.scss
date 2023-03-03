@@ -42,6 +42,9 @@
     letter-spacing: 0.2px;
     color: $grey;
   }
+  &__item-link:hover {
+    text-decoration: underline 2px;
+  }
 }
 
 
@@ -107,6 +110,9 @@
     background-color: $orange;
     border-radius: 37px;
   }
+  &__btn-get-quote:hover {
+    text-decoration: underline 2px;
+  }
   &__btn-learn-more {
     color: #0D5C63;
     font-weight: 700;
@@ -119,6 +125,9 @@
     background-color: transparent;
     border-radius: 37px;
     border: 1px solid #0D5C63;
+  }
+  &__btn-learn-more:hover {
+    text-decoration: underline 2px;
   }
   &__wrap-boxes-product {
     display: flex;
@@ -331,8 +340,6 @@
     height: 58px;
     border: 1px solid #E6E6E6;
     border-radius: 5px 0 0 5px;
-  }
-  &__input-email::placeholder {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -355,6 +362,9 @@
     color: #fff;
     text-align: center;
     border-radius: 0 5px 5px 0;
+  }
+  &__btn-submit:hover {
+    text-decoration: underline;
   }
 }
 .newsletter::after {
