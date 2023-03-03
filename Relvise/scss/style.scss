@@ -22,9 +22,6 @@
     color: $blue;
     margin-top: 36px;
   }
-  &__menu {
-
-  }
 }
 .header--position--absolute {
   position: absolute;
@@ -464,8 +461,6 @@
     justify-content: space-between;
     padding-right: 38px;
 	}
-	&__box-text {
-	}
 	&__title {
     font-style: normal;
     font-weight: 700;
@@ -590,11 +585,3 @@
   display: inline-block;
   align-self: center;
 }
-
-
-
-
-
-
-
-
