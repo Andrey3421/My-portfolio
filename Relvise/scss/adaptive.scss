@@ -342,7 +342,11 @@
   .support-card {
     width: 95%;
   }
-
+  .newsletter {
+    &__btn-submit {
+      width: 117px;
+    }
+  }
   .footer-bottom {
     &__inner {
       flex-direction: column;

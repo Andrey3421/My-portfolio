@@ -275,6 +275,9 @@
   .support-card {
     width: 95%;
   }
+  .newsletter__btn-submit {
+    width: 117px;
+  }
   .footer-bottom__inner {
     flex-direction: column;
     padding: 20px 0;
