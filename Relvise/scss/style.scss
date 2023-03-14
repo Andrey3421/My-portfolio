@@ -264,9 +264,13 @@
 }
 .advice-card {
   background-color: #fff;
+  align-self: stretch;
 
   &__inner {
     width: 230px;
+    height: 100%;
+    position: relative;
+    padding-bottom: 138px;
   }
   &__title {
     font-style: normal;
@@ -275,7 +279,8 @@
     line-height: 24px;
     letter-spacing: 0.1px;
     color: $blue;
-    margin: 30px 20px 15px 30px;
+    margin: 0px 20px 15px 30px;
+    padding-top: 30px;
     width: 135px;
   }
   &__text {
@@ -291,6 +296,8 @@
   }
   &__img {
     width: 230px;
+    position: absolute;
+    bottom: 0;
   }
 }
 
