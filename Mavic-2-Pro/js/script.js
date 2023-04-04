@@ -124,7 +124,6 @@ const sliderMain = new Swiper('.slider-main', {
     init: function() {
       navSlider();
       navSliderBurger();
-      //navPositionCorrection()
     },
     slideChange: function() {
       navPositionCorrection();
@@ -247,36 +246,14 @@ function addNavBackground() {
   };
 };
 
+// Отключаю свайп слайдера containerSlider при ширине экрана меньше 1100px и высоте меньше 750px
+function checkAvailWidthHaight() {
+  let screenAvailWidth = window.screen.availWidth;
+  let screenAvailHaight = window.screen.availHeight;
 
+  if (screenAvailWidth < 1100 || screenAvailHaight < 750) {
+    containerSlider.allowTouchMove = false;
+  };
+};
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+checkAvailWidthHaight();
