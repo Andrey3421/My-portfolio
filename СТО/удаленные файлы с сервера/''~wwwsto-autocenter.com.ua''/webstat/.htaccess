@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/sto-autocenter.com.ua/webstat"
+AuthUserFile /var/www/autocenter/data/etc/9682474.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
