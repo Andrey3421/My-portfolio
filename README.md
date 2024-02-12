@@ -13,8 +13,9 @@
 - CSS
 - SCSS
 
-## 3. [Relvise](https://coder-html840.github.io/My-portfolio/Relvise/) (Simple landing page).
+## 3. [СТО](https://coder-html840.github.io/My-portfolio/СТО/) (Simple landing page).
 ### The following was used in the development:
 - HTML
 - CSS
 - SCSS
+- JavaScript
