@@ -6,7 +6,7 @@
 - SCSS
 - JavaScript
 
-## 1. [Horoscope](https://coder-html840.github.io/My-portfolio/СТО/) (Landing page).
+## 1. [Horoscope](https://Andrey3421.github.io/My-portfolio/horoscope/pages/minToday.html) (Landing page).
 ### The following was used in the development:
 - HTML
 - CSS
