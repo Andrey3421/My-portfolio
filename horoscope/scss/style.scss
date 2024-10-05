@@ -1,0 +1,80 @@
+html {
+  font-size: 24px;
+  //scrollbar-width: none;
+}
+
+
+.body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.horoscopes {
+  &__inner {
+    line-height: 120%;
+    letter-spacing: 0.5px;
+  }
+
+  &__horoscope {
+    position: relative;
+    border-bottom: 3px solid black;
+  }
+
+  &__title {
+    position: absolute;
+    top: 17px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    background-color: #000000b3;
+    width: 90%;
+    max-width: 1120px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 135%;
+    text-align: center;
+    padding: 10px 37px;
+  }
+}
+.horoscopes__horoscope.horoscopes__horoscope--last {
+  padding-bottom: 80px;
+}
+
+.horoscope {
+  padding-top: 17px;
+  padding-bottom: 17px;
+
+  &__text-box {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    max-width: 1120px;
+    background-color: #000000b3;
+    text-align: center;
+    padding: 17px 0px;
+    margin: 0 auto;
+    min-height: 340px;
+  }
+  &__text-box--first {
+    margin-top: 91px;
+  }
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 135%;
+    margin-bottom: 12px;
+    padding: 0 26px;
+  }
+  &__img-sign {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__text {
+    font-size: 15px;
+    padding: 0 15px;
+  }
+}

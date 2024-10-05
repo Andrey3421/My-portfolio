@@ -1,0 +1,139 @@
+@media(min-width: 555px) {
+  .mobile-panel {
+    &__link {
+      font-size: 17px;
+      padding: 13px;
+    }
+  }
+
+  .horoscopes {
+    &__title {
+      font-size: 25px;
+      min-height: 88px;
+    }
+  }
+
+  .horoscope {
+    &__title {
+      font-size: 23px;
+    }
+
+    &__text-box--first {
+      margin-top: 105px;
+    }
+
+    &__text {
+      font-size: 20px;
+      line-height: 1.25;
+    }
+  }
+}
+
+@media(min-width: 800px) {
+  .horoscopes {
+    &__title {
+      font-size: 36px;
+      min-height: 133px;
+    }
+  }
+
+  .horoscope {
+    &__text-box--first {
+      margin-top: 155px;
+    }
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__text {
+      font-size: 24px;
+      line-height: 1.25;
+    }
+  }
+}
+
+@media(min-width: 1120px) {
+  .nav-wrap {
+    top: 0px;
+    bottom: auto;
+  }
+
+  .nav {
+    height: 76px;
+
+    &__background._active {
+      display: none;
+    }
+
+    &__nav-list {
+      background-color: #39243b;
+      display: flex;
+      width: 100%;
+      //max-width: 1120px;
+      height: 76px;
+      top: 0;
+      bottom: 0;
+      margin: 0 auto;
+      opacity: 1;
+      font-size: 20px;
+    }
+
+    &__nav-list._active {
+      display: flex;
+    }
+    
+    &__mobile-panel {
+      display: none;
+    }
+  }
+
+  .nav-list {
+    &__item {
+      flex-grow: 1;
+      align-self: stretch;
+      margin-bottom: 0;
+    }
+
+    &__item:hover {
+      background-color: #00000052;
+    }
+
+    &__link {
+      min-width: auto;
+      width: 100%;
+      padding: 14px 30px;
+      padding: 28px 30px;
+      background: none;
+    }
+  }
+
+  .horoscopes {
+    &__title {
+      top: 90px;
+    }
+  }
+
+  .horoscope {
+    &__text-box--first {
+      margin-top: 228px;
+    }
+  }
+}
+
+@media(max-width: 460px) {
+  .mobile-panel {
+    width: 90%;
+    justify-content: space-between;
+
+    &__link {
+      width: 42%;
+    }
+    &__link--left {
+      padding-left: 2%;
+    }
+    &__link--right {
+      padding-right: 2%;
+    }
+  }
+}
